@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header h1, header img, header nav {
+    margin: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+nav li:hover {
+    color: #ffcc00;
+}
+nav li.active {
+    color: #ffcc00;
+    font-weight: bold;
+}
+.logob {
+    width: 200px;
+    height: auto;
+}
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.video-section {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #fff000;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+.video-section:hover {
+    transform: scale(1.05);
+}
+form {
+    margin: 20px 0;
+}
+form label, form input {
+    display: block;
+    margin: 10px 0;
+}
+form input:valid {
+    border-color: green;
+}
+form input:invalid {
+    border-color: rgb(196, 178, 23);
+}
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 
+}

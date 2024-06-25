@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantora Bárbara Matos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cantora Barbara Matos</h1>
+        <img src="/Images/LOGO BARBARA MATOS 2.png" class="logob" alt="Logo Barbara Matos">
+        <nav>
+            <ul id="menu">
+                <a href="outro.html">
+                    <li data-section="home" class="active">Home</li>
+                </a>
+                <li data-section="minha-historia">Minha História</li>
+                <li data-section="banda">Banda</li>
+                <li data-section="contrate">Contrate</li>
+                <li data-section="contato">Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="video-section section">
+                <video controls src="video1.mp4"></video>
+            </div>
+            <div class="video-section section">
+                <video controls src="video2.mp4"></video>
+            </div>
+            <div class="video-section section">
+                <video controls src="video3.mp4"></video>
+            </div>
+        </div>
+    </main>
+    <form id="contact-form">
+        <h1>Entre em contato e tenha o melhor show no seu evento!</h1>
+        <label for="contact">Contato:</label>
+        <input type="text" id="contact" name="contact" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>
+        &copy; 2024 Cantora Barbara Matos. Todos os direitos reservados.
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
