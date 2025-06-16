@@ -1,53 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Babi Miranda - Desenvolvedora Front-end</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bárbara Matos - Cantora Eclética</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/LOGO BARBARA MATOS 2.png" />
+
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Babi Miranda</h1>
-    <p>Desenvolvedora Front-end</p>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="#contato">Contato</a>
-    </nav>
+
+  <!-- Cabeçalho visual com fundo, logo e nome -->
+  <header class="hero-header">
+    <div class="overlay">
+      <div class="hero-content">
+        <img src="img/LOGO BARBARA MATOS 2.png" alt="Logo Bárbara Matos" class="logo-topo" />
+        <h1>Bárbara Matos</h1>
+        <h2 class="sub">Cantora Eclética</h2>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
+  <!-- Sobre -->
   <section id="sobre">
-    <h2>Sobre mim</h2>
-    <p>Sou apaixonada por tecnologia, criatividade e desenvolvimento front-end. Em transição de carreira, venho unindo minha experiência com arte e comunicação ao mundo do código.</p>
+    <h2>Sobre Mim</h2>
+    <p>Sou Bárbara Matos, artista da alma e desenvolvedora por paixão. Trago emoção, ritmo e conexão em cada apresentação. Com uma voz versátil e presença marcante, levo ao palco o melhor de mim em cada nota.</p>
   </section>
 
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <ul>
-      <li><strong>Projeto 1:</strong> <a href="https://github.com/babimiranda/projeto1" target="_blank">Ver no GitHub</a></li>
-      <li><strong>Projeto 2:</strong> <a href="https://github.com/babimiranda/projeto2" target="_blank">Ver no GitHub</a></li>
-    </ul>
+  <!-- Galeria -->
+  <section id="fotos">
+    <h2>Galeria de Fotos</h2>
+    <div class="carousel">
+      <img src="img/Snapinsta.app_382890356_858567468776075_3751407998398281085_n_1080 (1).jpg" alt="Apresentação ao vivo" />
+      <img src="img/Snapinsta.app_384323636_1013519066584535_7008484850238734998_n_1080.jpg" alt="Cantando com banda" />
+      <img src="img/Imagem do WhatsApp de 2025-06-16 à(s) 17.57.25_2bea8420.jpg" alt="Show intimista" />
+    </div>
   </section>
 
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>HTML5, CSS3, JavaScript</li>
-      <li>Git e GitHub</li>
-      <li>React (básico)</li>
-      <li>WordPress e SEO</li>
-    </ul>
+  <!-- Vídeos -->
+  <section id="videos">
+    <h2>Vídeos</h2>
+    <div class="videos">
+      <iframe width="300" height="200" src="https://www.youtube.com/watch?v=lpd18Z02AUs&list=RDlpd18Z02AUs&start_radio=1" frameborder="0" allowfullscreen></iframe>
+    </div>
   </section>
 
+  <!-- Contato -->
   <section id="contato">
-    <h2>Contato</h2>
-    <p>Entre em contato pelo e-mail: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
+    <h2>Fale Comigo</h2>
+    <form id="formContato">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="email" id="email" placeholder="Seu e-mail" required />
+      <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="statusMensagem"></p>
   </section>
 
+  <!-- Rodapé -->
   <footer>
-    <p>&copy; 2025 Babi Miranda. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Bárbara Matos. Todos os direitos reservados.</p>
   </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5531986773819" target="_blank" class="whatsapp-flutuante" aria-label="Fale comigo no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
