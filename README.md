@@ -1,61 +1,34 @@
-# 🎤 Portfólio - Bárbara Matos
+# 👩‍💻 Bárbara Matos | Front-End Developer & Musicista 🎤🎸
 
-Site pessoal da cantora e desenvolvedora **Bárbara Matos**, feito com foco em design moderno, lógica de programação e interatividade real. Um projeto que une música, código e presença digital.
+Sou uma desenvolvedora front-end em formação com foco em **JavaScript**, **HTML5**, **CSS3** e **React** . Tenho também uma trajetória como artista e empreendedora, o que me trouxe visão estética, criatividade e muita disciplina agora aplicadas no código.
 
-## 🌟 Sobre o Projeto
+## 🚀 O que eu faço e crio com Front-End:
 
-Este projeto foi criado para apresentar o trabalho artístico e técnico de Bárbara Matos. Com uma identidade visual elegante e moderna, o site apresenta:
+- Sites lindos, leves e funcionais do zero, com HTML, CSS e JavaScript
+- Telas responsivas que se adaptam a qualquer dispositivo
+- Funcionalidades com lógica real, como formulários, menus, filtros e animações
+- Conexão com APIs pra trazer dados vivos pra dentro da interface
+- Projetos onde código e criatividade andam juntos — como meu site de cantora, minha agenda de shows e os projetos da Amarelo Limão
+- Tudo com carinho, clareza no código e foco na experiência de quem vai usar
 
-- Hero section com imagem de fundo e overlay escuro
-- Galeria de fotos e vídeos
-- Formulário de contato funcional
-- Botão flutuante do WhatsApp
-- Aplicações de lógica de programação em JavaScript
 
-## 🛠️ Tecnologias Utilizadas
+## 🌐 Tecnologias
+![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
+![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat&logo=angular&logoColor=white)
 
-- HTML5 + CSS3
-- JavaScript (ES6+)
-- Font Awesome
-- Google Fonts (Raleway)
-- GitHub Pages
+## 📁 Meus Projetos
 
-## 📸 Screenshot
+| Projeto | Descrição | Tecnologias |
+|--------|-----------|-------------|
+| [🎵 Site Cantora Bárbara Matos](https://babimiranda.github.io/site-cantora) | Portfólio artístico com integração de mídias e lógica JS | HTML, CSS, JS |
+| [🌿 Amarelo Limão Tecnologia](https://babimiranda.github.io/amarelo-limao-front) | Site institucional com foco em soluções front-end | HTML, CSS, JS |
+| [🗓️ Agenda de Shows](https://babimiranda.github.io/agenda-de-shows) | Projeto prático com lógica de datas e listas | HTML, CSS, JS |
 
-![preview do site](img/screenshot.jpg)
-
-> Substitua o arquivo `screenshot.jpg` pela imagem do site pronto
-
-## 🚀 Como Rodar Localmente
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
-2. Abra a pasta no VS Code ou editor preferido
-3. Clique duas vezes no arquivo `index.html` ou use Live Server
-
-## 🌐 Publicado em:
-
-[https://seu-usuario.github.io/seu-repositorio](https://seu-usuario.github.io/seu-repositorio)
-
-## 💡 Funcionalidades JS no Projeto
-
-- Validação e envio de formulário (sem backend)
-- Exemplo de `if/else`, `for`, `while`, `switch`, funções, objetos, `forEach`
-
-## 🤝 Contribuição
-
-Este projeto é autoral. Para sugestões ou colaborações, entre em contato via [WhatsApp](https://wa.me/5548999999999).
-
-## 📬 Contato
-
-- **Nome:** Bárbara Matos
-- **Instagram:** [@barbaramatosoficial](https://instagram.com/barbaramatosoficial)
-- **Email:** babi@email.com
-- **Telefone/WhatsApp:** (48) 99999-9999
-
----
-
-Com alma musical e visão de futuro,
-**Babi & Arbor** 💛
+## 💬 Entre em contato
+- 📩 barbara@email.com
+- 📱 [WhatsApp](https://wa.me/seunumerowpp)
+- 📷 [Instagram](https://instagram.com/suaperfil)
+- 💼 [LinkedIn](https://linkedin.com/in/barbaramatosdev)
